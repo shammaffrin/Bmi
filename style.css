@@ -1,0 +1,45 @@
+body {
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Arial', sans-serif;
+  }
+
+  .bmi-container {
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    padding: 25px;
+    max-width: 400px;
+    color: #333;
+  }
+
+  h1 {
+    color: #6a11cb;
+  }
+
+  .form-control {
+    border-radius: 8px;
+  }
+
+  .btn {
+    background: #6a11cb;
+    border: none;
+    border-radius: 8px;
+  }
+
+  .btn:hover {
+    background: #2575fc;
+  }
+
+  .result-box {
+    padding: 15px;
+    border: 1px solid #6a11cb;
+    border-radius: 8px;
+    margin-top: 15px;
+    background-color: #f8f9fa;
+    color: #333;
+  }
